@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Роман Жукович — сайты-визитки и лендинги</title>
-<meta name="description" content="Начинающий веб-дизайнер из Минска. Сайты-визитки и лендинги на HTML и CSS: понятная структура, аккуратная типографика, адаптив под телефон.">
+<title>Роман Жукович — сайты для бизнеса в Минске | от 350 BYN</title>
+<meta name="description" content="Разработка аккуратных сайтов-визиток и лендингов для малого бизнеса Минска на чистом HTML и CSS. Без конструкторов, быстрая загрузка, адаптив под смартфоны. Срок от 3 дней.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -15,14 +15,15 @@
   <div class="container header-inner">
     <a class="logo" href="index.html">Роман Жукович</a>
 
-    <nav class="nav">
+    <nav class="nav" aria-label="Разделы">
       <a href="#about">Обо мне</a>
-      <a href="#services">Услуги</a>
-      <a href="#works">Работы</a>
+      <a href="#packages">Пакеты и цены</a>
+      <a href="#works">Примеры сайтов</a>
+      <a href="#workflow">Схема работы</a>
       <a href="#contact">Контакты</a>
     </nav>
 
-    <a class="btn btn-primary btn-small" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Telegram</a>
+    <a class="btn btn-primary btn-small" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Написать в Telegram</a>
   </div>
 </header>
 
@@ -30,76 +31,114 @@
 
   <!-- ================= ГЛАВНЫЙ ЭКРАН ================= -->
   <section class="hero container">
-    <p class="eyebrow">Веб-дизайн · Минск</p>
-    <h1>Сайты-визитки и лендинги, которые не стыдно показать</h1>
+    <p class="eyebrow">Веб-дизайн и вёрстка · Минск</p>
+    <h1>Сайты для малого бизнеса: от 350 BYN за 3 дня</h1>
     <p class="lead">
-      Меня зовут Роман. Делаю аккуратные сайты на HTML и CSS: понятная структура,
-      живая типографика, одинаково чисто на телефоне и на большом экране.
+      Меня зовут Роман. Разрабатываю быстрые и чистые сайты на HTML и CSS: понятная структура для клиентов, продающая типографика и безупречный адаптив под любые смартфоны.
     </p>
 
     <div class="row">
-      <a class="btn btn-primary" href="#works">Посмотреть работы</a>
-      <a class="btn btn-ghost" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Написать в Telegram</a>
+      <a class="btn btn-primary" href="#packages">Выбрать пакет</a>
+      <a class="btn btn-outline" href="#works">Смотреть примеры</a>
     </div>
 
-    <p class="badge"><span class="badge-dot" aria-hidden="true"></span> Свободен для первых заказов</p>
+    <div class="badge-row">
+      <span class="badge"><span class="badge-dot" aria-hidden="true"></span> Свободен для новых заказов</span>
+      <span class="badge">Предоплата 50%</span>
+      <span class="badge">Бесплатные правки 14 дней</span>
+    </div>
   </section>
 
   <div class="container"><div class="rule"></div></div>
 
   <!-- ================= ОБО МНЕ ================= -->
   <section id="about" class="container section">
-    <p class="eyebrow">01 — Обо мне</p>
+    <p class="eyebrow">01 — Обо мне и подходе</p>
 
     <div class="two-col">
       <div>
-        <h2>Делаю и показываю результат</h2>
+        <h2>Делаю сайты, которые приводят заявки</h2>
         <p>
-          Занимаюсь вёрсткой сайтов: нравится, когда простая страница выглядит продуманно
-          и работает без лишней сложности. Начинал с визиток, сейчас делаю и интерактивные
-          проекты — от эффектов на JavaScript до 3D-модели двигателя в браузере.
+          Специализируюсь на сайтах для локального бизнеса Минска: пекарен, салонов, барбершопов, СТО, репетиторов и мастеров услуг. Моя цель — чтобы человек, открывший страницу с телефона, за 10 секунд понял, чем вы занимаетесь, увидел цены и нажал кнопку записи.
         </p>
         <p>
-          Верстаю на чистом HTML и CSS, без конструкторов и тяжёлых фреймворков.
-          Это значит: страница быстро открывается, легко правится и не ломается
-          от обновлений чужих плагинов.
+          <b>Почему чистый код лучше Тильды?</b> Сайт на HTML/CSS открывается мгновенно даже при слабом 3G, не ломается от обновлений платформы и не требует платить 300+ BYN каждый год за подписку на конструктор. Вы получаете готовый проект навсегда.
         </p>
       </div>
 
-      <!-- Короткие факты: клиенту удобно прочитать за 5 секунд -->
       <ul class="facts">
-        <li><b>Город</b><span>Минск, работаю удалённо</span></li>
-        <li><b>Стек</b><span>HTML, CSS, немного JavaScript</span></li>
-        <li><b>Срок</b><span>визитка — 1–3 дня</span></li>
-        <li><b>Цена</b><span>по договорённости, первые проекты — со скидкой</span></li>
+        <li><b>Локация</b><span>Минск (работаю по всей Беларуси)</span></li>
+        <li><b>Стек</b><span>HTML5, CSS3, JavaScript, Three.js</span></li>
+        <li><b>Сроки</b><span>от 3 до 7 рабочих дней</span></li>
+        <li><b>Оплата</b><span>официально (НПД), карта или ЕРИП</span></li>
+        <li><b>Поддержка</b><span>2 недели правок включены в стоимость</span></li>
       </ul>
     </div>
   </section>
 
   <div class="container"><div class="rule"></div></div>
 
-  <!-- ================= УСЛУГИ ================= -->
-  <section id="services" class="container section">
-    <p class="eyebrow">02 — Услуги</p>
-    <h2>Что я делаю</h2>
+  <!-- ================= ПАКЕТЫ И ЦЕНЫ ================= -->
+  <section id="packages" class="container section">
+    <p class="eyebrow">02 — Пакеты и цены</p>
+    <h2>Прозрачная стоимость без скрытых платежей</h2>
+    <p class="lead">Вы точно знаете, за что платите. Стоимость фиксируется до начала работы.</p>
 
-    <div class="cards">
-      <article class="card">
-        <h3>Лендинг под задачу</h3>
-        <p>Одностраничный сайт для услуги или товара: структура, тексты, вёрстка, адаптив.</p>
-        <p class="card-meta">от 1 до 5 экранов</p>
+    <div class="pricing-grid">
+      <!-- Пакет 1: Старт -->
+      <article class="price-card">
+        <h3>«Старт»</h3>
+        <p class="price-desc">Сайт-визитка для быстрого старта в интернете или запуска рекламы.</p>
+        <div class="price-tag">350 <small>BYN</small></div>
+        <div class="price-term">Срок: 3 дня</div>
+
+        <ul class="price-features">
+          <li>1–3 компактных информативных экрана</li>
+          <li>Адаптивная вёрстка под смартфоны</li>
+          <li>Прямая кнопка связи в Telegram / звонок</li>
+          <li>Индивидуальная иконка (favicon)</li>
+          <li>Базовая SEO-оптимизация метатегов</li>
+        </ul>
+
+        <a class="btn btn-outline" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Заказать «Старт»</a>
       </article>
 
-      <article class="card">
-        <h3>Сайт-визитка</h3>
-        <p>Короткий сайт о вас или о деле: кто вы, что делаете, как связаться. С портфолио.</p>
-        <p class="card-meta">1–3 экрана</p>
+      <!-- Пакет 2: Бизнес (Хит) -->
+      <article class="price-card popular">
+        <span class="badge-popular">Хит продаж</span>
+        <h3>«Бизнес»</h3>
+        <p class="price-desc">Полноценный конверсионный лендинг под ключ для стабильного потока клиентов.</p>
+        <div class="price-tag">600 <small>BYN</small></div>
+        <div class="price-term">Срок: 5 дней</div>
+
+        <ul class="price-features">
+          <li>4–6 экранов (Услуги, прайс, отзывы, карта)</li>
+          <li>Интерактивные элементы и плавная анимация</li>
+          <li>Форма заявки / калькулятор стоимости</li>
+          <li>Подключение Яндекс Метрики / Google Analytics</li>
+          <li>Интерактивная карта проезда в Минске</li>
+          <li>14 дней гарантийной поддержки</li>
+        </ul>
+
+        <a class="btn btn-primary" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Заказать «Бизнес»</a>
       </article>
 
-      <article class="card">
-        <h3>Доработка сайта</h3>
-        <p>Поправить вёрстку и внешний вид существующей страницы: отступы, шрифты, адаптив.</p>
-        <p class="card-meta">по объёму работ</p>
+      <!-- Пакет 3: Под ключ -->
+      <article class="price-card">
+        <h3>«Под ключ»</h3>
+        <p class="price-desc">Максимальный комплект: сайт + регистрация домена + карты + поддержка.</p>
+        <div class="price-tag">900 <small>BYN</small></div>
+        <div class="price-term">Срок: 7 дней</div>
+
+        <ul class="price-features">
+          <li>Всё, что входит в пакет «Бизнес»</li>
+          <li>Помощь с регистрацией домена (.by / .com)</li>
+          <li>Размещение на надёжном хостинге на 1 год</li>
+          <li>Оформление карточки в Яндекс и Google Картах</li>
+          <li>1 месяц бесплатного ведения и обновлений</li>
+        </ul>
+
+        <a class="btn btn-outline" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Заказать «Под ключ»</a>
       </article>
     </div>
   </section>
@@ -108,12 +147,61 @@
 
   <!-- ================= РАБОТЫ ================= -->
   <section id="works" class="container section">
-    <p class="eyebrow">03 — Работы</p>
-    <h2>Примеры</h2>
+    <p class="eyebrow">03 — Готовые шаблоны и примеры</p>
+    <h2>Интерактивные демо-проекты</h2>
+    <p class="lead">Все сайты свёрстаны вручную. Нажмите на карточку, чтобы открыть живой работающий сайт.</p>
 
     <div class="works">
 
-      <!-- Учебный проект: настоящая ссылка на готовую страницу -->
+      <!-- Демо 1: Барбершоп -->
+      <a class="work" href="demo/barber/index.html">
+        <span class="thumb thumb-barber" aria-hidden="true">
+          <span class="thumb-bar"><i></i><i></i><i></i></span>
+          <span class="thumb-content">
+            <span class="thumb-title">Сталь & Борода</span>
+            <span class="thumb-sub">барбершоп · темная тема</span>
+          </span>
+        </span>
+        <span class="work-body">
+          <span class="work-tag">Шаблон ниши</span>
+          <strong>Барбершоп «Сталь & Борода»</strong>
+          <span class="work-desc">Тёмный маскулинный дизайн, золотые акценты, полный прайс-лист услуг, отзывы клиентов и запись онлайн.</span>
+        </span>
+      </a>
+
+      <!-- Демо 2: Автосервис -->
+      <a class="work" href="demo/auto/index.html">
+        <span class="thumb thumb-auto" aria-hidden="true">
+          <span class="thumb-bar"><i></i><i></i><i></i></span>
+          <span class="thumb-content">
+            <span class="thumb-title">АвтоМастер</span>
+            <span class="thumb-sub">СТО · шиномонтаж</span>
+          </span>
+        </span>
+        <span class="work-body">
+          <span class="work-tag">Шаблон ниши</span>
+          <strong>Автосервис и шиномонтаж</strong>
+          <span class="work-desc">Техничный индустриальный лендинг: прозрачные цены на ремонт, гарантии 12 месяцев, форма бесплатной диагностики.</span>
+        </span>
+      </a>
+
+      <!-- Демо 3: Репетитор -->
+      <a class="work" href="demo/tutor/index.html">
+        <span class="thumb thumb-tutor" aria-hidden="true">
+          <span class="thumb-bar"><i></i><i></i><i></i></span>
+          <span class="thumb-content">
+            <span class="thumb-title">Точные Науки</span>
+            <span class="thumb-sub">репетитор · подготовка к ЦТ</span>
+          </span>
+        </span>
+        <span class="work-body">
+          <span class="work-tag">Шаблон ниши</span>
+          <strong>Репетиторский центр</strong>
+          <span class="work-desc">Доверительный академический стиль: средний балл выпускников 87.4, программы обучения, отзывы родителей.</span>
+        </span>
+      </a>
+
+      <!-- Демо 4: Пекарня -->
       <a class="work" href="demo/cafe/index.html">
         <span class="thumb thumb-cafe" aria-hidden="true">
           <span class="thumb-bar"><i></i><i></i><i></i></span>
@@ -123,29 +211,13 @@
           </span>
         </span>
         <span class="work-body">
-          <span class="work-tag">Учебный проект</span>
-          <strong>Лендинг пекарни «Тёплый хлеб»</strong>
-          <span class="work-desc">Одностраничный сайт: меню, о нас, часы работы. Свёрстан на HTML и CSS, без картинок и внешних библиотек.</span>
+          <span class="work-tag">Демо лендинг</span>
+          <strong>Пекарня «Тёплый хлеб»</strong>
+          <span class="work-desc">Тёплый природный стиль (Nature Distilled): ежедневное меню выпечки, часы работы и бронь столика.</span>
         </span>
       </a>
 
-      <!-- Демо-проект: интерактивный фон с частицами -->
-      <a class="work" href="demo/stars/index.html">
-        <span class="thumb thumb-stars" aria-hidden="true">
-          <span class="thumb-bar"><i></i><i></i><i></i></span>
-          <span class="thumb-content">
-            <span class="thumb-title">Звёздная пыль</span>
-            <span class="thumb-sub">эффект · canvas</span>
-          </span>
-        </span>
-        <span class="work-body">
-          <span class="work-tag">Учебный проект</span>
-          <strong>Интерактивный фон «Звёздная пыль»</strong>
-          <span class="work-desc">Ночное небо с пылинками: при зажатой мыши у курсора вспыхивает разноцветное мерцание и тянется за ним шлейфом. Чистый JavaScript, без библиотек.</span>
-        </span>
-      </a>
-
-      <!-- Демо-проект: интерактивная 3D-модель двигателя -->
+      <!-- Демо 5: 3D двигатель M120 V12 -->
       <a class="work" href="demo/v12/index.html">
         <span class="thumb thumb-v12" aria-hidden="true">
           <span class="thumb-bar"><i></i><i></i><i></i></span>
@@ -155,21 +227,63 @@
           </span>
         </span>
         <span class="work-body">
-          <span class="work-tag">Учебный проект</span>
-          <strong>Двигатель Mercedes-Benz M120 в 3D</strong>
-          <span class="work-desc">Разбор V12 по деталям: вращение и приближение колесом мыши, режим «взрыв», рентген, восемь шагов сборки, каталог деталей и проверка знаний.</span>
+          <span class="work-tag">Сложная разработка</span>
+          <strong>Двигатель Mercedes V12 в 3D</strong>
+          <span class="work-desc">Интерактивный разбор 40 деталей на Three.js: режим «взрыв», рентген, анимация коленвала и проверка знаний.</span>
         </span>
       </a>
 
-      <!-- Свободный слот: показывает, что портфолио растёт -->
-      <article class="work work-empty">
-        <span class="thumb thumb-empty" aria-hidden="true"><span>свободно</span></span>
-        <span class="work-body">
-          <strong>Здесь может быть ваш проект</strong>
-          <span class="work-desc">Сделаю сайт-визитку или лендинг — и он займёт это место.</span>
+      <!-- Демо 6: Звёздная пыль -->
+      <a class="work" href="demo/stars/index.html">
+        <span class="thumb thumb-stars" aria-hidden="true">
+          <span class="thumb-bar"><i></i><i></i><i></i></span>
+          <span class="thumb-content">
+            <span class="thumb-title">Звёздная пыль</span>
+            <span class="thumb-sub">эффект · canvas</span>
+          </span>
         </span>
-      </article>
+        <span class="work-body">
+          <span class="work-tag">Интерактивный JS</span>
+          <strong>Интерактивный фон «Звёздная пыль»</strong>
+          <span class="work-desc">Вихрь мерцающих частиц при зажатии мыши: шлейф, гравитация и панель из 22 тонких параметров.</span>
+        </span>
+      </a>
 
+    </div>
+  </section>
+
+  <div class="container"><div class="rule"></div></div>
+
+  <!-- ================= СХЕМА РАБОТЫ ================= -->
+  <section id="workflow" class="container section">
+    <p class="eyebrow">04 — Прозрачность и гарантии</p>
+    <h2>Как мы будем работать</h2>
+    <p class="lead">Понятный процесс без лишней бюрократии и риска для ваших денег.</p>
+
+    <div class="steps-grid">
+      <div class="step-card">
+        <span class="step-idx">01</span>
+        <h4>Бесплатная консультация</h4>
+        <p>Обсуждаем в Telegram ваши задачи, аудиторию и пожелания. Подбираем структуру и референсы за 15 минут.</p>
+      </div>
+
+      <div class="step-card">
+        <span class="step-idx">02</span>
+        <h4>Предоплата 50% и черновик</h4>
+        <p>Фиксируем цену и срок. Я готовлю рабочий черновик на своём тестовом адресе за 2 дня.</p>
+      </div>
+
+      <div class="step-card">
+        <span class="step-idx">03</span>
+        <h4>Правки до идеала</h4>
+        <p>Вы смотрите живой сайт на своём телефоне и компьютере. Вносим необходимые корректировки в текст и оформление.</p>
+      </div>
+
+      <div class="step-card">
+        <span class="step-idx">04</span>
+        <h4>Оплата и запуск</h4>
+        <p>Вы оплачиваете вторую половину суммы. Я переношу сайт на ваш домен и передаю все исходные файлы и инструкции.</p>
+      </div>
     </div>
   </section>
 
@@ -177,21 +291,19 @@
 
   <!-- ================= КОНТАКТЫ ================= -->
   <section id="contact" class="container section">
-    <p class="eyebrow">04 — Контакты</p>
-    <h2>Напишите — обсудим задачу</h2>
+    <p class="eyebrow">05 — Связь</p>
+    <h2>Готовы запустить сайт для вашего бизнеса?</h2>
     <p class="lead">
-      Отвечаю в Telegram. Расскажите, что нужно: сделаю, покажу черновик,
-      поправим и опубликую в интернете.
+      Напишите мне в Telegram — покажу, как может выглядеть сайт под вашу конкретную нишу, и сориентирую по срокам.
     </p>
 
     <div class="row">
-      <a class="btn btn-primary" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Telegram: @Zhukovich_R</a>
-      <a class="btn btn-ghost" href="https://github.com/romazykovich09-hue" target="_blank" rel="noopener">GitHub — код этого сайта</a>
+      <a class="btn btn-primary" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Написать в Telegram: @Zhukovich_R</a>
+      <a class="btn btn-outline" href="https://github.com/romazykovich09-hue" target="_blank" rel="noopener">GitHub разработчика</a>
     </div>
 
     <p class="contact-note">
-      Исходники сайта открыты: в репозитории на GitHub видно, как всё свёрстано.
-      Почта появится здесь позже.
+      Работаю как самозанятый (НПД). Официальный чек и договор подряда при необходимости.
     </p>
   </section>
 
@@ -200,8 +312,8 @@
 <!-- ================= ПОДВАЛ ================= -->
 <footer class="site-footer">
   <div class="container footer-inner">
-    <p>Жукович Роман Евгеньевич · Минск</p>
-    <p>© 2026 · Свёрстано вручную на HTML и CSS</p>
+    <p>Жукович Роман · Веб-дизайн и вёрстка в Минске</p>
+    <p>© 2026 · Чистый HTML & CSS</p>
   </div>
 </footer>
 
