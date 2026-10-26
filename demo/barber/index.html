@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Барбершоп «Сталь & Борода» — Минск | Мужские стрижки и бритьё</title>
-<meta name="description" content="Демо-сайт барбершопа в Минске: мужские стрижки, моделирование бороды, королевское бритьё. Стильный тёмный дизайн, прайс-лист, онлайн-запись.">
+<meta name="description" content="Атмосферный мужской барбершоп в центре Минска на ул. Октябрьской. Стрижки с характером, бритьё опасной бритвой, крафтовые напитки.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<!-- SVG-иконки без внешних зависимостей -->
+<!-- SVG иконки -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="6" cy="18" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 4L8.7 15.3M8.7 8.7L20 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
   <symbol id="i-razor" viewBox="0 0 24 24"><path d="M3 7l8-4 10 5-8 4z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 13l4 8 2-1-4-8" stroke="currentColor" stroke-width="2"/><path d="M12 9l6 3" stroke="currentColor" stroke-width="2"/></symbol>
@@ -25,10 +25,10 @@
   <symbol id="i-whiskey" viewBox="0 0 24 24"><path d="M5 4h14l-2 15a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L5 4z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 10h12" stroke="currentColor" stroke-width="2"/></symbol>
 </svg>
 
-<!-- Полоска демонстрации портфолио -->
+<!-- Демо-полоска портфолио -->
 <div class="demo-strip">
   <div class="container strip-inner">
-    <span>Готовый шаблон для барбершопа · Пакет «Бизнес»</span>
+    <span>Живой пример сайта для барбершопа · Пакет «Бизнес»</span>
     <a href="../../index.html">← Вернуться в портфолио</a>
   </div>
 </div>
@@ -37,273 +37,281 @@
 <header class="site-header">
   <div class="container header-inner">
     <a class="logo" href="index.html">
-      <svg class="icon icon-logo" aria-hidden="true" focusable="false"><use href="#i-scissors"></use></svg>
+      <svg class="icon icon-logo" aria-hidden="true"><use href="#i-scissors"></use></svg>
       <span>СТАЛЬ & БОРОДА</span>
     </a>
 
     <nav class="nav" aria-label="Навигация">
-      <a href="#services">Услуги и цены</a>
-      <a href="#about">О нас</a>
+      <a href="#services">Услуги</a>
+      <a href="#gallery">Атмосфера</a>
+      <a href="#masters">Барберы</a>
       <a href="#reviews">Отзывы</a>
       <a href="#contacts">Контакты</a>
     </nav>
 
-    <a class="btn btn-primary btn-small" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Записаться онлайн</a>
+    <a class="btn btn-primary btn-small" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Онлайн-запись</a>
   </div>
 </header>
 
 <main>
 
-  <!-- ================= ГЛАВНЫЙ ЭКРАН ================= -->
+  <!-- ================= ГЕРОЙ ================= -->
   <section class="hero">
+    <div class="hero-bg-overlay"></div>
     <div class="container hero-inner">
       <div class="hero-content">
-        <p class="eyebrow">Мужской клуб · Минск, Октябрьская</p>
-        <h1>Стрижём мужчин с характером</h1>
+        <div class="hero-live-badge">
+          <span class="live-dot"></span>
+          <span>Сегодня свободно 3 окна к топ-барберам</span>
+        </div>
+        <h1>Мужские стрижки с характером на Октябрьской</h1>
         <p class="lead">
-          Классические и современные стрижки, идеальные контуры бороды и бритьё опасной бритвой.
-          Без спешки, с пониманием стиля и уважением к вашему времени.
+          Классический британский фейд, чёткие контуры бороды опасным лезвием и атмосфера закрытого джентльменского клуба. Никакой спешки — работаем на результат.
         </p>
 
-        <ul class="hero-badges">
-          <li><svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg> Ежедневно 10:00 — 22:00</li>
-          <li><svg class="icon" aria-hidden="true"><use href="#i-whiskey"></use></svg> Напитки и PS5 включены</li>
-          <li><svg class="icon" aria-hidden="true"><use href="#i-star"></use></svg> 4.9 рейтинг (340+ отзывов)</li>
-        </ul>
+        <div class="hero-badges">
+          <div class="h-badge"><svg class="icon"><use href="#i-clock"></use></svg> 10:00 — 22:00 ежедневно</div>
+          <div class="h-badge"><svg class="icon"><use href="#i-whiskey"></use></svg> Напитки & PS5 включены</div>
+          <div class="h-badge"><svg class="icon"><use href="#i-star"></use></svg> 4.9 рейтинг в Минске</div>
+        </div>
 
         <div class="hero-actions">
-          <a class="btn btn-primary" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Записаться к мастеру</a>
-          <a class="btn btn-ghost" href="#services">Смотреть прайс-лист</a>
+          <a class="btn btn-primary btn-large" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Выбрать время в Telegram</a>
+          <a class="btn btn-ghost btn-large" href="#services">Смотреть прайс</a>
         </div>
       </div>
 
-      <!-- Атмосферная карточка первого экрана -->
-      <div class="hero-card" aria-hidden="true">
-        <div class="badge-accent">Первый визит</div>
-        <div class="hero-card-inner">
-          <div class="hero-card-icon"><svg class="icon icon-hero"><use href="#i-razor"></use></svg></div>
-          <h3>Скидка 15%</h3>
-          <p>На комплекс «Стрижка + Борода» при первой записи через сайт</p>
-          <div class="hero-card-price">55 BYN <span>вместо 65 BYN</span></div>
+      <!-- Фото первого экрана с плавающей карточкой скидки -->
+      <div class="hero-visual">
+        <div class="hero-image-wrap">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1000&q=80" alt="Интерьер барбершопа Сталь и Борода Минск" class="hero-photo" loading="eager">
+        </div>
+        <div class="floating-promo-card">
+          <div class="f-promo-tag">Первый визит</div>
+          <p class="f-promo-title">Скидка 15%</p>
+          <p class="f-promo-sub">На комплекс «Стрижка + Борода» при записи через сайт</p>
+          <div class="f-promo-price">55 BYN <span>65 BYN</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ================= ПРЕИМУЩЕСТВА ================= -->
-  <section class="features">
-    <div class="container features-grid">
-      <article class="feature-item">
-        <div class="feature-icon"><svg class="icon"><use href="#i-scissors"></use></svg></div>
-        <h3>Барберы с опытом от 4 лет</h3>
-        <p>Каждый мастер регулярно проходит повышение квалификации. Подберём стрижку под форму лица и структуру волос.</p>
-      </article>
+  <!-- ================= ПРЕИМУЩЕСТВА С СКРАББИНГОМ ================= -->
+  <section class="section-facts">
+    <div class="container facts-grid">
+      <div class="fact-card" data-scrub="fade-up" data-scrub-delay="0">
+        <span class="fact-num">01</span>
+        <h3>Мастера от 4 лет стажа</h3>
+        <p>Каждый барбер прошёл европейскую сертификацию и знает анатомию мужского лица.</p>
+      </div>
 
-      <article class="feature-item">
-        <div class="feature-icon"><svg class="icon"><use href="#i-razor"></use></svg></div>
-        <h3>Премиум-косметика</h3>
-        <p>Работаем исключительно на профессиональных линейках: Reuzel, Uppercut Deluxe, Morgan's и Proraso.</p>
-      </article>
+      <div class="fact-card" data-scrub="fade-up" data-scrub-delay="0.1">
+        <span class="fact-num">02</span>
+        <h3>Косметика Reuzel & Proraso</h3>
+        <p>Никаких дешёвых масс-маркет средств. Только культовые голландские и итальянские линейки.</p>
+      </div>
 
-      <article class="feature-item">
-        <div class="feature-icon"><svg class="icon"><use href="#i-whiskey"></use></svg></div>
-        <h3>Атмосфера и отдых</h3>
-        <p>Свежий зерновой кофе, крафтовые напитки, классический рок и PlayStation 5 в зоне ожидания.</p>
-      </article>
+      <div class="fact-card" data-scrub="fade-up" data-scrub-delay="0.2">
+        <span class="fact-num">03</span>
+        <h3>Стерильность ГОСТ</h3>
+        <p>Инструмент проходит трёхэтапную ультразвуковую дезинфекцию и вскрывается при вас.</p>
+      </div>
+
+      <div class="fact-card" data-scrub="fade-up" data-scrub-delay="0.3">
+        <span class="fact-num">04</span>
+        <h3>Клубная атмосфера</h3>
+        <p>Свежий эспрессо, односолодовый напиток, правильная музыка и удобные кожаные кресла.</p>
+      </div>
     </div>
   </section>
 
-  <!-- ================= УСЛУГИ И ЦЕНЫ ================= -->
+  <!-- ================= УСЛУГИ С ФОТОГРАФИЯМИ И СКРАББИНГОМ ================= -->
   <section id="services" class="section">
     <div class="container">
-      <div class="section-head">
-        <p class="eyebrow">01 — Прайс-лист</p>
-        <h2>Популярные услуги</h2>
-        <p class="section-desc">Честные цены без скрытых доплат за мытьё головы или стайлинг.</p>
+      <div class="sec-head" data-scrub="fade-up">
+        <p class="eyebrow">01 — Меню услуг</p>
+        <h2>Прайс-лист без скрытых доплат</h2>
+        <p class="sec-desc">Мытьё головы, подбор стайлинга и напитки уже включены в стоимость каждой услуги.</p>
       </div>
 
-      <div class="pricing-grid">
-        <article class="price-card">
-          <div class="price-header">
-            <h3>Мужская стрижка</h3>
-            <span class="price-val">45 <small>BYN</small></span>
+      <div class="services-cards-grid">
+
+        <!-- Услуга 1: Мужская стрижка -->
+        <article class="service-media-card" data-scrub="fade-left">
+          <div class="srv-img-box">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=700&q=80" alt="Мужская стрижка ножницами в барбершопе" class="srv-img" loading="lazy">
+            <span class="srv-badge">50 мин</span>
           </div>
-          <p class="price-desc">Мытьё головы, подбор формы, стрижка ножницами и машинкой, укладка премиум-стайлингом.</p>
-          <ul class="price-features">
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Консультация по стилю</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Мытьё головы до и после</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Время: 50 минут</li>
-          </ul>
-          <a class="btn btn-outline" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Выбрать время</a>
+          <div class="srv-info">
+            <div class="srv-headline">
+              <h3>Мужская стрижка</h3>
+              <span class="srv-cost">45 BYN</span>
+            </div>
+            <p>Консультация по стилю, мытьё головы до и после, стрижка ножницами и машинкой, укладка премиум-помадой Reuzel.</p>
+            <a class="btn btn-outline btn-full" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Записаться к мастеру</a>
+          </div>
         </article>
 
-        <article class="price-card popular">
-          <div class="popular-tag">Выбор клиентов</div>
-          <div class="price-header">
-            <h3>Стрижка + Борода</h3>
-            <span class="price-val">65 <small>BYN</small></span>
+        <!-- Услуга 2: Стрижка + Борода (Хит) -->
+        <article class="service-media-card featured" data-scrub="fade-up">
+          <div class="featured-badge">Выбор 75% гостей</div>
+          <div class="srv-img-box">
+            <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=700&q=80" alt="Моделирование бороды опасной бритвой" class="srv-img" loading="lazy">
+            <span class="srv-badge">80 мин</span>
           </div>
-          <p class="price-desc">Полное преображение: мужская стрижка + моделирование бороды с распариванием лица.</p>
-          <ul class="price-features">
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Стрижка волос любой сложности</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Чёткие контуры опасной бритвой</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Уходовые масла и крем</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Время: 80 минут</li>
-          </ul>
-          <a class="btn btn-primary" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Записаться на комплекс</a>
+          <div class="srv-info">
+            <div class="srv-headline">
+              <h3>Стрижка + Борода</h3>
+              <span class="srv-cost">65 BYN</span>
+            </div>
+            <p>Полное преображение: стрижка любой сложности + распаривание лица горячим полотенцем, чёткие контуры лезвием и уходовое масло.</p>
+            <a class="btn btn-primary btn-full" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Записаться на комплекс</a>
+          </div>
         </article>
 
-        <article class="price-card">
-          <div class="price-header">
-            <h3>Моделирование бороды</h3>
-            <span class="price-val">30 <small>BYN</small></span>
+        <!-- Услуга 3: Королевское бритьё -->
+        <article class="service-media-card" data-scrub="fade-right">
+          <div class="srv-img-box">
+            <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=700&q=80" alt="Королевское бритье опасной бритвой горячее полотенце" class="srv-img" loading="lazy">
+            <span class="srv-badge">45 мин</span>
           </div>
-          <p class="price-desc">Придание формы, подравнивание длины, распаривание с эфирными маслами и чистые контуры.</p>
-          <ul class="price-features">
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Горячее полотенце</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Окантовка шейной зоны</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Время: 35 минут</li>
-          </ul>
-          <a class="btn btn-outline" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Выбрать время</a>
+          <div class="srv-info">
+            <div class="srv-headline">
+              <h3>Королевское бритьё</h3>
+              <span class="srv-cost">40 BYN</span>
+            </div>
+            <p>Традиционный ритуал чистого бритья: двойное распаривание с эвкалиптом, густая тёплая пена и охлаждающий лосьон Proraso.</p>
+            <a class="btn btn-outline btn-full" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Записаться к мастеру</a>
+          </div>
         </article>
 
-        <article class="price-card">
-          <div class="price-header">
-            <h3>Королевское бритьё</h3>
-            <span class="price-val">40 <small>BYN</small></span>
-          </div>
-          <p class="price-desc">Традиционный мужской ритуал: двойное распаривание, пена из помазка и чистое бритьё лезвием.</p>
-          <ul class="price-features">
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Традиционная шаветка</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Охлаждающий лосьон Proraso</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Время: 45 минут</li>
-          </ul>
-          <a class="btn btn-outline" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Выбрать время</a>
-        </article>
-
-        <article class="price-card">
-          <div class="price-header">
-            <h3>Отец + Сын</h3>
-            <span class="price-val">75 <small>BYN</small></span>
-          </div>
-          <p class="price-desc">Две стрижки в одно время: отличная мужская традиция провести время вместе и выглядеть на все 100.</p>
-          <ul class="price-features">
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Два кресла рядом</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Напитки для обоих</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Время: 60 минут</li>
-          </ul>
-          <a class="btn btn-outline" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Выбрать время</a>
-        </article>
-
-        <article class="price-card">
-          <div class="price-header">
-            <h3>Камуфляж седины</h3>
-            <span class="price-val">30 <small>BYN</small></span>
-          </div>
-          <p class="price-desc">Естественное тонирование волос или бороды. Заметно омолаживает, выглядит абсолютно натурально.</p>
-          <ul class="price-features">
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Без эффекта «парика»</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Смывается плавно</li>
-            <li><svg class="icon-chk"><use href="#i-check"></use></svg> Время: 20 минут</li>
-          </ul>
-          <a class="btn btn-outline" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Выбрать время</a>
-        </article>
       </div>
     </div>
   </section>
 
-  <!-- ================= О НАС ================= -->
-  <section id="about" class="section section-darker">
-    <div class="container two-col">
-      <div>
-        <p class="eyebrow">02 — О нас</p>
-        <h2>Место, где стригут по совести</h2>
-        <p class="lead">
-          Мы открыли «Сталь & Борода» в 2021 году на Октябрьской как пространство для мужчин,
-          которым важен стабильный результат без сюрпризов.
-        </p>
-        <p class="text-muted">
-          У нас нет текучки кадров: каждый мастер работает больше двух лет и знает привычки постоянных гостей.
-          Приходя к нам, вы получаете именно ту стрижку, о которой просили, плюс полтора часа приятного отдыха от городского шума.
-        </p>
-        <div class="stats-row">
-          <div class="stat-box"><b>4 200+</b><span>клиентов в Минске</span></div>
-          <div class="stat-box"><b>5</b><span>опытных мастеров</span></div>
-          <div class="stat-box"><b>4.9</b><span>оценка на картах</span></div>
-        </div>
+  <!-- ================= АТМОСФЕРА / ФОТОГАЛЕРЕЯ ================= -->
+  <section id="gallery" class="section section-darker">
+    <div class="container">
+      <div class="sec-head" data-scrub="fade-up">
+        <p class="eyebrow">02 — Пространство</p>
+        <h2>Атмосфера на Октябрьской, 19</h2>
+        <p class="sec-desc">Мы создали место, куда приходят не просто подстричься, а перезагрузиться после сложного рабочего дня.</p>
       </div>
 
-      <div class="atmosphere-box">
-        <div class="atmo-header">
-          <svg class="icon icon-gold"><use href="#i-scissors"></use></svg>
-          <h3>Правила нашего клуба</h3>
+      <div class="gallery-mosaic">
+        <div class="mosaic-item large" data-scrub="fade-left">
+          <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1000&q=80" alt="Зона отдыха барбершопа" class="mosaic-photo" loading="lazy">
+          <div class="mosaic-caption">Зона ожидания с кожаными диванами и PlayStation 5</div>
         </div>
-        <ul class="atmo-list">
-          <li><b>Пунктуальность:</b> начинаем ровно в назначенную минуту. Ваше время бесценно.</li>
-          <li><b>Стерильность:</b> инструмент проходит 3 ступени дезинфекции и сухожар в крафт-пакете.</li>
-          <li><b>Честность:</b> если стрижка не подходит вашей форме головы, мастер прямо об этом скажет и предложит лучший вариант.</li>
-          <li><b>Уют:</b> всегда предложим свежий напиток и включим интересную беседу или оставим в тишине.</li>
-        </ul>
+
+        <div class="mosaic-item" data-scrub="zoom-in" data-scrub-delay="0.1">
+          <img src="https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=600&q=80" alt="Профессиональный инструмент барбера" class="mosaic-photo" loading="lazy">
+          <div class="mosaic-caption">Премиальный японский инструмент</div>
+        </div>
+
+        <div class="mosaic-item" data-scrub="fade-right" data-scrub-delay="0.2">
+          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=600&q=80" alt="Уход за мужской бородой" class="mosaic-photo" loading="lazy">
+          <div class="mosaic-caption">Селективные масла и бальзамы</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= НАША КОМАНДА ================= -->
+  <section id="masters" class="section">
+    <div class="container">
+      <div class="sec-head" data-scrub="fade-up">
+        <p class="eyebrow">03 — Команда</p>
+        <h2>Ваш персональный барбер</h2>
+        <p class="sec-desc">Опытные мастера, которые слышат ваши пожелания и не состригут лишний миллиметр.</p>
+      </div>
+
+      <div class="masters-grid">
+
+        <div class="master-card" data-scrub="fade-up" data-scrub-delay="0">
+          <div class="master-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80" alt="Илья Шеф-барбер" class="master-photo" loading="lazy">
+          </div>
+          <h4>Илья Воронов</h4>
+          <span class="master-role">Шеф-барбер · 7 лет стажа</span>
+          <p>Специалист по классическим британским формам и геометрии бороды любой густоты.</p>
+          <a class="master-book-btn" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Записаться к Илье →</a>
+        </div>
+
+        <div class="master-card" data-scrub="fade-up" data-scrub-delay="0.15">
+          <div class="master-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80" alt="Артём Топ-барбер" class="master-photo" loading="lazy">
+          </div>
+          <h4>Артём Смирнов</h4>
+          <span class="master-role">Топ-барбер · 5 лет стажа</span>
+          <p>Мастер филигранных переходов (skin fade), удлинённых текстурных стрижек и стайлинга.</p>
+          <a class="master-book-btn" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Записаться к Артёму →</a>
+        </div>
+
+        <div class="master-card" data-scrub="fade-up" data-scrub-delay="0.3">
+          <div class="master-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80" alt="Данила Барбер" class="master-photo" loading="lazy">
+          </div>
+          <h4>Данила Кравчук</h4>
+          <span class="master-role">Барбер-стилист · 4 года стажа</span>
+          <p>Эксперт по камуфляжу седины, бритью опасной бритвой и детским стрижкам без слёз.</p>
+          <a class="master-book-btn" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Записаться к Даниле →</a>
+        </div>
+
       </div>
     </div>
   </section>
 
   <!-- ================= ОТЗЫВЫ ================= -->
-  <section id="reviews" class="section">
+  <section id="reviews" class="section section-darker">
     <div class="container">
-      <div class="section-head">
-        <p class="eyebrow">03 — Отзывы</p>
+      <div class="sec-head" data-scrub="fade-up">
+        <p class="eyebrow">04 — Честные отзывы</p>
         <h2>Что говорят постоянные гости</h2>
       </div>
 
-      <div class="reviews-grid">
-        <article class="review-card">
-          <div class="stars">
+      <div class="reviews-editorial-grid">
+        <article class="rev-quote-card" data-scrub="fade-left">
+          <div class="rev-stars-row">
             <svg class="icon-star"><use href="#i-star"></use></svg>
             <svg class="icon-star"><use href="#i-star"></use></svg>
             <svg class="icon-star"><use href="#i-star"></use></svg>
             <svg class="icon-star"><use href="#i-star"></use></svg>
             <svg class="icon-star"><use href="#i-star"></use></svg>
           </div>
-          <p>«Хожу к мастеру Илье уже второй год. Бороду так ровно в Минске не выводил никто. Всегда идеальный фейд и крутая атмосфера на Октябрьской.»</p>
-          <div class="reviewer"><b>Максим В.</b><span>IT-предприниматель</span></div>
+          <blockquote>«Хожу к Илье уже второй год. Бороду так ровно в Минске не выводил никто. Всегда идеальный фейд, отличный кофе и приятная беседа без суеты.»</blockquote>
+          <div class="rev-meta">
+            <b>Максим Волков</b>
+            <span>Основатель IT-агентства · Минск</span>
+          </div>
         </article>
 
-        <article class="review-card">
-          <div class="stars">
+        <article class="rev-quote-card" data-scrub="fade-right">
+          <div class="rev-stars-row">
             <svg class="icon-star"><use href="#i-star"></use></svg>
             <svg class="icon-star"><use href="#i-star"></use></svg>
             <svg class="icon-star"><use href="#i-star"></use></svg>
             <svg class="icon-star"><use href="#i-star"></use></svg>
             <svg class="icon-star"><use href="#i-star"></use></svg>
           </div>
-          <p>«Привёл сына на первую стрижку в барбершоп. Парень в восторге, чувствовал себя взрослым. Спасибо за терпение и отличный результат!»</p>
-          <div class="reviewer"><b>Евгений К.</b><span>Минск</span></div>
-        </article>
-
-        <article class="review-card">
-          <div class="stars">
-            <svg class="icon-star"><use href="#i-star"></use></svg>
-            <svg class="icon-star"><use href="#i-star"></use></svg>
-            <svg class="icon-star"><use href="#i-star"></use></svg>
-            <svg class="icon-star"><use href="#i-star"></use></svg>
-            <svg class="icon-star"><use href="#i-star"></use></svg>
+          <blockquote>«Королевское бритьё перед важной встречей — это высший пилотаж. Кожа гладкая, никакого раздражения. Полный релакс за 45 минут в кресле.»</blockquote>
+          <div class="rev-meta">
+            <b>Дмитрий Корзун</b>
+            <span>Минск</span>
           </div>
-          <p>«Королевское бритьё перед свадьбой — это восторг. Кожа гладкая, никакого раздражения. Сервис уровня европейских салонов.»</p>
-          <div class="reviewer"><b>Артём С.</b><span>Маркетолог</span></div>
         </article>
       </div>
 
-      <p class="demo-note">Учебный демо-проект для портфолио. Отзывы и название смоделированы для демонстрации структуры лендинга.</p>
+      <p class="demo-subtext">Демонстрационный сайт для портфолио разработчика. Отзывы и образы смоделированы для иллюстрации структуры и интерактивных анимаций.</p>
     </div>
   </section>
 
   <!-- ================= ПРИЗЫВ К ДЕЙСТВИЮ ================= -->
-  <section class="cta-banner">
+  <section class="cta-banner" data-scrub="zoom-in">
     <div class="container cta-flex">
       <div>
-        <h2>Готовы обновить образ?</h2>
-        <p>Запишитесь через Telegram за 1 минуту: выберите удобный день и мастера.</p>
+        <h2>Готовы выглядеть на все 100%?</h2>
+        <p>Запишитесь за 1 минуту: выберите мастера и время прямо в Telegram.</p>
       </div>
       <div class="cta-btns">
         <a class="btn btn-primary btn-large" href="https://t.me/Zhukovich_R" target="_blank" rel="noopener">Записаться в Telegram</a>
@@ -316,37 +324,35 @@
   </section>
 
   <!-- ================= КОНТАКТЫ ================= -->
-  <section id="contacts" class="section section-darker">
-    <div class="container two-col">
-      <div>
-        <p class="eyebrow">04 — Локация</p>
-        <h2>Ждём вас на Октябрьской</h2>
-        <p class="lead">
-          Мы находимся в самом сердце культурного Минска. Удобный подъезд на авто, 5 минут пешком от ст. м. Первомайская.
-        </p>
+  <section id="contacts" class="section">
+    <div class="container two-col-contacts">
+      <div data-scrub="fade-left">
+        <p class="eyebrow">05 — Локация</p>
+        <h2>Ждём вас на Октябрьской, 19</h2>
+        <p class="lead">В самом центре креативного Минска. 5 минут пешком от ст. м. Первомайская, бесплатная парковка для гостей.</p>
 
-        <ul class="contact-info">
+        <ul class="contacts-checklist">
           <li>
-            <svg class="icon"><use href="#i-pin"></use></svg>
-            <div><b>Адрес</b><span>Минск, ул. Октябрьская, 19 (вход со двора)</span></div>
+            <svg class="icon-gold"><use href="#i-pin"></use></svg>
+            <div><b>Адрес</b><span>г. Минск, ул. Октябрьская, 19 (вход со двора через арку)</span></div>
           </li>
           <li>
-            <svg class="icon"><use href="#i-clock"></use></svg>
-            <div><b>График работы</b><span>Пн–Вс: 10:00 — 22:00 (без выходных)</span></div>
+            <svg class="icon-gold"><use href="#i-clock"></use></svg>
+            <div><b>Режим работы</b><span>Пн–Вс: с 10:00 до 22:00 (без выходных)</span></div>
           </li>
           <li>
-            <svg class="icon"><use href="#i-phone"></use></svg>
-            <div><b>Телефон / Запись</b><span>+375 (29) 000-00-00</span></div>
+            <svg class="icon-gold"><use href="#i-phone"></use></svg>
+            <div><b>Прямой номер</b><span>+375 (29) 000-00-00</span></div>
           </li>
         </ul>
       </div>
 
-      <div class="map-placeholder">
-        <div class="map-box">
-          <svg class="icon icon-big"><use href="#i-pin"></use></svg>
-          <h4>Минск, ул. Октябрьская, 19</h4>
-          <p>Рядом со ст. м. Первомайская · Бесплатная парковка для гостей</p>
-          <a class="btn btn-small btn-primary" href="https://yandex.by/maps" target="_blank" rel="noopener">Открыть на Яндекс Картах</a>
+      <div class="map-interactive-box" data-scrub="fade-right">
+        <div class="map-card-inner">
+          <svg class="icon-big-gold"><use href="#i-pin"></use></svg>
+          <h3>Минск, ул. Октябрьская, 19</h3>
+          <p>Ориентир: напротив завода МЗОР, ст. м. Первомайская</p>
+          <a class="btn btn-primary btn-small" href="https://yandex.by/maps" target="_blank" rel="noopener">Открыть маршрут на картах</a>
         </div>
       </div>
     </div>
@@ -358,15 +364,18 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <div>
-      <p class="footer-brand">СТАЛЬ & БОРОДА · БАРБЕРШОП</p>
-      <p class="footer-copy">© 2026 Все права защищены. Демонстрационный проект для портфолио.</p>
+      <p class="footer-brand">СТАЛЬ & БОРОДА · БАРБЕРШОП МИНСК</p>
+      <p class="footer-copy">© 2026 Учебный проект. Все права защищены.</p>
     </div>
     <div class="footer-meta">
-      <p>Дизайн и вёрстка: <b>Роман Жукович</b></p>
+      <p>Разработка: <b>Роман Жукович</b></p>
       <p><a href="../../index.html">← Вернуться в портфолио</a></p>
     </div>
   </div>
 </footer>
+
+<!-- Подключаем скрипт кинематического скраббинга -->
+<script src="scrub.js"></script>
 
 </body>
 </html>
